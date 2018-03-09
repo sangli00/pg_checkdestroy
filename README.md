@@ -1,4 +1,5 @@
 #Install
+
 make
 make install
 
@@ -7,6 +8,7 @@ shared_preload_libraries='pg_checkdestroy'
 
 
 #Parameter
+
 pg_checkdestroy.work default on
 This is PGC_USERSET guc parameter,you can set in session.
 
