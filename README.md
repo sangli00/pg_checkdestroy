@@ -4,12 +4,14 @@ make
 make install
 
 you can modify postgres.conf 
+
 shared_preload_libraries='pg_checkdestroy'
 
 
 #Parameter
 
-pg_checkdestroy.work default on
+pg_checkdestroy.work on | off   default on
+
 This is PGC_USERSET guc parameter,you can set in session.
 
 
